@@ -28,11 +28,11 @@ const Register = () => {
     const { name, email, password } = state;
 
     if (name === "" || email === "" || password === "") {
-      setErrorMsg("All the fields are required.");
+      setErrorMsg("All the fields are required");
       setSuccessMsg("");
     } else {
       setErrorMsg("");
-      setSuccessMsg("You have successfully registered.");
+      setSuccessMsg("You have successfully registered");
     }
   };
 
